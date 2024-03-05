@@ -1,0 +1,119 @@
+.Home
+{
+    justify-content: space-between;
+    user-select: none;
+    background-color: rgb(219, 219, 219);
+}
+
+.smaller-cards
+{
+    display: flex;
+    justify-content: center;
+}
+.smaller-cards .card
+
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 230px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.larger-cards
+{
+    display: flex;
+    margin-left: 10px;
+   justify-content: center;
+    
+    margin-top: 20px;
+}
+.larger-cards .card
+{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 250px;
+    width: 550px;
+    text-align: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.card:hover
+{
+    transform: scale(1.05,1.05);
+    transition: 1s;
+}
+
+.card .title
+{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid aqua;
+    width: 30%;
+    margin-top: 50px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
+    transition: 1s;
+    text-decoration: none;
+
+}
+.card .title:hover
+{
+    background-color: rgba(0, 255, 255, 0.651);
+    border: 2px solid rgba(0, 0, 0, 0.541);
+    cursor: pointer;
+}
+.card .title h1
+{
+    color: rgba(0, 0, 0, 0.664);
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.card .title h2
+{
+    color: rgba(0, 0, 0, 0.664);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.smaller-cards > .card:nth-child(1){
+
+    background-image: url("hats.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.smaller-cards > .card:nth-child(2){
+
+    background-image: url("jackets.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.smaller-cards > .card:nth-child(3){
+
+    background-image: url("sneakers.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.larger-cards > .card:nth-child(1){
+
+    background-image: url("woman.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.larger-cards > .card:nth-child(2){
+
+    background-image: url("man.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Home .smaller-cards .card .title a
+{
+    text-decoration: none;
+    
+}

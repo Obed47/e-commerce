@@ -1,0 +1,25 @@
+.contacts
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 500px;
+  
+
+}
+.contacts ul li
+{
+    list-style:none;
+    justify-content: center;
+}
+.contacts ul li a
+{
+    text-decoration: none;
+}
+.contacts h2
+{
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
