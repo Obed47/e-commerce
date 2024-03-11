@@ -1,26 +1,5 @@
-.App .Goods
-{
-    width: 150px;
-    height: 40px;
-    margin: 10px 10px;
-    border: none;
-    background-color: aquamarine;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px black;
-    cursor: pointer;
-}
-.App .Homep
-{
-    border: none;
-    height: 40px;
-    margin: 10px 10px;
-    background-color: blueviolet;
-    width: 100px;
-    color: white;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px black;
- 
-}
+
+
 .App .buttons
 {
     text-align: left;

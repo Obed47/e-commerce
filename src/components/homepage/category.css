@@ -1,0 +1,33 @@
+
+.categoryCard
+{
+    width: 80%;
+    margin: auto;
+    max-height: 250px;
+    display: flex;
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+.categoryCard .image
+{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid black;
+}
+.categoryCard .texts .title
+{
+    width: 40%;
+    background-color: brown;
+    margin: auto;
+    height: 30px;
+    color: black;
+    text-align: center;
+}
+.categoryCard .texts
+{
+    width: 70%;
+    text-align: left;
+    border: 2px solid blueviolet;
+    max-height: 250px;
+}
